@@ -687,7 +687,7 @@ def _build_schedule_time_provider(default_schedule_time: str):
     """
     from src.core.config_manager import ConfigManager
 
-    _SYSTEM_DEFAULT_SCHEDULE_TIME = "18:00"
+    _SYSTEM_DEFAULT_SCHEDULE_TIME = "12:00"
     manager = ConfigManager()
 
     def _provider() -> str:
